@@ -19,6 +19,12 @@ To build this application for production:
 bun run build
 ```
 
+The build goes into `dist/` (client assets in `dist/client`, server entry in `dist/server/server.js`). To try the built app locally:
+
+```bash
+bun run serve
+```
+
 ### Styling
 
 This project uses [Tailwind CSS](https://tailwindcss.com/) for styling.
